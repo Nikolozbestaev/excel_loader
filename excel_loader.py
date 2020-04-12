@@ -9,7 +9,7 @@ from io import StringIO
 import  excel_loader as el
 file_nm = 'googleplaystore.csv'
 dsn = 'dbname=... host=... port=... user=... password=...'
-table_nm = 'sandpit.bestaev_tm'
+table_nm = 'sandpit.test'
 el.run(file_nm, dsn, table_nm)
 '''
 
