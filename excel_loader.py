@@ -8,7 +8,7 @@ from io import StringIO
 '''
 import  excel_loader as el
 file_nm = 'googleplaystore.csv'
-dsn = 'dbname=fpc_daily host=10.3.52.233 port=5432 user=ac_tech password=AC_tech_report'
+dsn = 'dbname=... host=... port=... user=... password=...'
 table_nm = 'sandpit.bestaev_tm'
 el.run(file_nm, dsn, table_nm)
 '''
